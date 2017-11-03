@@ -1,7 +1,7 @@
 ## ----example1------------------------------------------------------------
 library(predatory)
 
-name <- 'Biomedical Laboratory and Clinical Research'
+name <- 'International Journal of Electrochemical Science'
 temp <- find.predatory(x = name)
 temp
 
@@ -14,7 +14,7 @@ temp
 
 ## ----example3------------------------------------------------------------
 my.str <- 'finance'
-temp <- find.predatory(x = my.str)
+temp <- find.predatory(x = my.str, type.match = 'partial')
 head(temp)
 
 
